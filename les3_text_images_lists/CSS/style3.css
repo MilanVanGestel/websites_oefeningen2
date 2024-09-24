@@ -1,0 +1,23 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #00293d;
+}
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+    color: #fa6533;
+}
+h2 {
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 1.5em;
+    color: #00293d;
+}
+.img_top {
+    width: 200px;
+    margin: 20px;
+}
+.link:hover {
+    color: #fa6533;
+}

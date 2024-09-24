@@ -1,0 +1,37 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+    color: #fa6533;
+}
+hr {
+    border-width: 1px;
+    color: #00293d;
+}
+.afbeelding_small {
+    float: left;
+    border-radius: 5%;
+    margin: 15px;
+    opacity: 0.5;
+}
+.afbeelding_small:hover {
+    opacity: 1;
+    box-shadow: 5px 5px 10px #fa6533;
+}
+.link_home {
+    color: #00293d;
+    text-decoration: none;
+}
+.link_home:hover {
+    color: #fa6533;
+}
+.link_home:visited {
+    text-decoration: solid #fa6533;
+}
+.container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

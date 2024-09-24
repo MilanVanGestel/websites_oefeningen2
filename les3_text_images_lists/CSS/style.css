@@ -1,0 +1,44 @@
+body {
+    color: #00293d;
+    font-family: "Lato", sans-serif;
+    font-size: 14pt;
+}
+.logo_thomasmore {
+    width: 200px;
+}
+hr {
+    border-width: 1px;
+    color: #00293d;
+}
+.titel {
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+    color: #fa6533;
+}
+.tekst {
+    margin: 0px;
+    padding: 15px;
+}
+.link {
+    color: #00293d;
+}
+.link:hover {
+    color: #fa6533;
+}
+.box {
+    background-color: #00293d;
+}
+.container {
+   background-color: #00293d;
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+.box {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo_wit {
+    width: 100%;
+}
