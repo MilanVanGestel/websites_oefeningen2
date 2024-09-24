@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+    border: solid 1px #00293d;
+    text-align: center;
+    border-collapse: collapse;
+}
+.kolom1 {
+    font-weight: bold;
+    background-color: #00293d;
+    width: 75px;
+    color: white;
+    text-align: center;
+}
+.daggen {
+    background-color: #fa6533;
+    color: white;
+}
+td, th {
+    border: solid 1px #00293d ;
+}
+tr {
+    height: 50px;
+}
