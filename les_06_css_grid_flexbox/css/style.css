@@ -1,0 +1,36 @@
+.kompas {
+    text-align: center;
+}
+.kompas > img {
+    width: 90%;
+    z-index: -1;
+    position: relative;
+}
+.noord {
+    font-family: "Dancing Script", cursive;
+    position: absolute;
+    font-size: 30px;
+    top: 30px;
+    left: 410px;
+    color: white;
+}
+.oost {
+    font-family: "Dancing Script", cursive;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    right: 70px;
+    top: 370px;
+}
+.zuid {
+    font-family: "Dancing Script", cursive;
+    position: relative;
+    font-size: 30px;
+    color: white;
+}
+.west {
+    font-family: "Dancing Script", cursive;
+    position: relative;
+    font-size: 30px;
+    color: white;
+}
