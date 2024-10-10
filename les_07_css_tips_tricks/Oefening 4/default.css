@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.row1_column1 {
+    float: left;
+    width: 60%;
+    padding: 15px;
+}
+.row1_column2 {
+    float: left;
+    width: 40%;
+    padding: 15px;
+}
+.row1:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.row2_column1, .row2_column2, .row2_column3, .row2_column4 {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+.row2:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+@media (width<500px) {
+    .row1_column2, .row1_column1, .row2_column1, .row2_column2, .row2_column3, .row2_column4 {
+        width: 100%;
+    }  
+}
