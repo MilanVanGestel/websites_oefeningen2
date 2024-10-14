@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Les 08 oefening 03</title>
+</head>
+<body>
+    <div class="container-md">
+        <h1 class="fw-semibold">Header</h1>
+       <div class="d-flex justify-conten-evenly">
+            <div class="card w-50 ms-2 me-2">
+                <img src="images/coast.jpg" alt="Foto van een kustlijn">
+                <h5 class="card-title"><img src="bootstrap-icons-1.11.3/umbrella-fill.svg" alt="icoon van paraplu" class="me-2 ms-2">Card title</h5>
+                <p class="card-text mx-2 mb-auto">Some quick example text to build on the card title and make up the bulk of the card's content. </p>
+                <a href="#" class="btn btn-primary mb-3 ms-2 mt-2" style="width: 150px;">Go somewhere</a>
+            </div>
+            <div class="card w-50 ms-2 me-2">
+                <img src="images/forest.jpg" alt="Foto van een bos">
+                <h5 class="card-title"><img src="bootstrap-icons-1.11.3/airplane-fill.svg" alt="icoon van vliegtuig" class="me-2 ms-2">Card title</h5>
+                <p class="card-text mx-2 mb-auto">Some quick example text to build on the card title and make up the bulk of the card's content. </p>
+                <a href="#" class="btn btn-primary mb-3 ms-2 mt-2" style="width: 150px;">Go somewhere</a>
+            </div>
+            <div class="card w-50 ms-2 me-2">
+                <img src="images/mountains.jpg" alt="Foto van een geberchten">
+                <h5 class="card-title"><img src="bootstrap-icons-1.11.3/suit-spade-fill.svg" alt="icoon van vliegtuig" class="me-2 ms-2">Card title</h5>
+                <p class="card-text mx-2 mb-auto">Some quick example text to build on the card title and make up the bulk of the card's content. </p>
+                <a href="#" class="btn btn-primary mb-3 ms-2 mt-2" style="width: 150px;">Go somewhere</a>
+            </div>
+        </div>
+        <button type="button" class="btn btn-secondary position-absolute bottom-0 end-0 me-3 mb-3 pe-3 ps-3
+            pt-2 pb-2 rounded-circle"
+            style="background-color:var(--bs-purple);"
+             data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Prank">
+                0
+            </button>
+    </div>
+    <script> 
+        const popoverTriggerList = document.   querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+</body>
+</html>

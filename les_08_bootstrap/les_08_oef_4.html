@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Les 08 oefening 04</title>
+</head>
+<body>
+    <div class="container-md">
+        <nav class="navbar navbar-expand-md bg-danger navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled"  aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search" action="#">
+                        <input class="form-control me-2" type="search" id="search" name="search" aria-label="search" placeholder="Search">
+                        <button class="btn btn-warning" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="alert alert-success
+        mb-4 mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quis ad alias blanditiis minima nam. Corrupti ea qui eaque tempora sint blanditiis dolorem dolor quo a, laboriosam deleniti facilis eos?
+        </div>
+        <h1 class="fw-semibold">Header <span class="badge text-bg-info text-light">New</span></h1> 
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, porro dolorem hic ad sunt, tempora ipsam ea quisquam quae sapiente, ipsum quaerat sint sit tenetur soluta suscipit tempore dolore consequuntur?
+        Explicabo doloribus dolorem, atque deserunt placeat consectetur beatae aspernatur molestiae voluptatibus excepturi sint porro perspiciatis, hic labore, facilis incidunt! Deserunt, odit tenetur expedita debitis a nihil quis cumque architecto libero!
+        Id illo perferendis eaque eligendi molestias! Ullam fuga sequi, eum tenetur consequuntur, itaque, totam quos exercitationem laudantium commodi numquam facilis nostrum sint non tempora. Odio a accusantium ea dolore commodi.
+        Officia aliquid, velit et, rerum fuga odit laudantium eveniet praesentium, inventore cumque tenetur eos ea officiis ratione culpa sint eum consequatur suscipit tempore ipsum. Minus nostrum ipsam quidem veritatis at.</p>
+            <button type="button" class="btn btn-secondary position-absolute bottom-0 end-0 me-3 mb-3 pe-3 ps-3
+            pt-2 pb-2 rounded-circle"
+            style="background-color:var(--bs-purple);"
+             data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Prank">
+                0
+            </button>
+    </div>
+    <script> 
+        const popoverTriggerList = document.   querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+</body>
+</html>
