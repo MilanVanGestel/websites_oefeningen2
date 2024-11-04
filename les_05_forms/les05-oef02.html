@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Les 05 Oefening 02</title>
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+        <div class="boxes">
+           <label for="voornaam">Voornaam</label>
+           <input type="text" name="voornaam" id="voornaam" placeholder="Stijn" class="inputs">
+        </div>
+        <div class="boxes">
+            <label for="familienaam">Familienaam</label>
+           <input type="text" name="familienaam" id="familienaam" placeholder="Lenearts" class="inputs">
+        </div>
+        <div class="boxes">
+            <label for="gebruikersnaam">Gebruikersnaam</label>
+           <input type="text" name="gebruikersnaam" id="gebruikersnaam" placeholder="mail@thomasmore.be" class="inputs">
+        </div>
+        <div class="boxes">
+            <label for="bijnaam">Nickname</label>
+           <input type="text" name="bijnaam" id="bijnaam" class="inputs" minlength="5"  maxlength="15" required>
+        </div>
+        <div class="boxes">
+            <label for="password">Paswoord</label>
+           <input type="password" name="password" id="password" class="inputs" required>
+        </div>
+        <div class="boxes">
+            <label for="repeat_pass">Herhaal Paswoord</label>
+           <input type="password" name="repeat_pass" id="repeat_pass" class="inputs" required>
+        </div>
+        <div class="boxes">
+            <input type="submit" value="Registreren" class="button">
+        </div>
+    </form>
+</body>
+</html>

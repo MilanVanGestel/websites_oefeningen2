@@ -1,0 +1,12 @@
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ form {
+    width: 40%;
+ }
+ .input {
+    background-color: rgb(126, 186, 255);
+ }
+ .input:focus {
+    background-color: white;
+ }
